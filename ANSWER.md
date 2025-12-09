@@ -5,7 +5,7 @@ and all values in the right subtree are larger. By visiting the left subtree fir
 then the right subtree, we naturally visit smaller values before larger values. This pattern holds 
 recursively at every level, resulting in values being visited in ascending (sorted) order.
 
-2. Give an example of an insertion order that produces a highly unbalanced BST. What does the inorder traversal look like for that tree?
+2.  Give an example of an insertion order that produces a highly unbalanced BST. What does the inorder traversal look like for that tree?
 Example insertion order: 1, 2, 3, 4, 5
 This creates a tree that looks like a linked list
 The inorder traversal of this tree is: [1, 2, 3, 4, 5] — still sorted, 

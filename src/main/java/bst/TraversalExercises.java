@@ -14,7 +14,7 @@ public class TraversalExercises {
         List<T> result = new ArrayList<>();
         //root, left, right
         // TODO: implement iterative preorder using Deque as a stack
-        // Hint: push root; while stack not empty:
+        // Hint: push root; while stack  not empty:
         //   pop node, visit it, then push right child, then left child
         if (root == null) return result;
 

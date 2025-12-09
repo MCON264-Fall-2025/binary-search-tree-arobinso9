@@ -43,7 +43,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 
     private void preorderRecursive(TreeNode<T> node, List<T> out) {
         // TODO: implement Preorder: Root -> Left -> Right
-        // hint: check for null, then visit node, then recurse on left and right
+        // hint: check for null,  then visit node, then recurse on left and right
         if (node == null) return;           // Stop if we hit a null node
         out.add(node.value);                // 1. Visit the current node FIRST
         preorderRecursive(node.left, out);  // 2. Then go left
